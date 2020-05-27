@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#body{
+  background-image: url('img1.jpg');
+  background-size: cover;
+}
+
+/* start Css nav bar dropsown*/
+
+.wrapper{
+  width:100%;
+}
+
+.wrapper .navbar{
+
+  background:linear-gradient(135deg, #0079bf, #5067c5);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+}
+
+.wrapper .navbar ul li a{
+  color: #fff;
+}
+
+.wrapper .navbar .left ul,
+.wrapper .navbar .right ul li a{
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.wrapper .navbar .left ul li,
+.wrapper .navbar .right img{
+  margin: 0 10px;
+}
+
+.wrapper .navbar .right a{
+  text-align: right;
+}
+
+.wrapper .navbar .right a span{
+  font-size: 10px;
+}
+
+.wrapper .navbar .right ul li{
+  position: relative;
+}
+
+.wrapper .navbar .right ul li .dropdown{
+  position: absolute;
+  top: 55px;
+  right: 0;
+  background:#0079bf ;
+  padding: 10px 25px;
+  display: none;
+}
+
+.wrapper .navbar .right ul li .dropdown .fas{
+  margin-right: 10px;
+}
+
+
+.wrapper .navbar .right ul li.active .dropdown{
+  display: block;
+}
+/* end Css nav bar dropsown*/
+
+
+/*start card create todolist*/
+ .mod-add{
+    background-color: rgba(9,30,66,.04);
+    box-shadow: none;
+    border: none;
+    color: #172b4d;
+    display: table-cell;
+    height: 80px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    width: inherit;
+    width: 350px;
+    padding: 5px;
+  }
+
+.board-title{
+  background-color: #97a0af;
+    background-size: cover;
+    background-position: 50%;
+    color: #fff;
+    line-height: 20px;
+    padding: 8px;
+    position: relative;
+    text-decoration: none;
+}
+
+
+.dropdown-menu ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+
+.button button{
+  width: 40px;
+  height: 40px;
+  border: none;
+}
+
+
+#container h1{
+   text-align: center;
+}
+.form-group{
+  display: none;
+  z-index: 1;
+}
+.social-container{
+  text-align: center;
+}
+.social-container button{
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+}
+.mod-add {
+  background-color: white;
+}

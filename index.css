@@ -1,0 +1,59 @@
+body{
+     margin: 0;
+      padding-bottom: 20px;
+      font-size: 1.25rem;
+      font-weight: 400;
+
+      color: #172B4D;
+      text-align: left;
+      background-color: #fff;
+
+}
+
+.fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+#hero{
+  overflow-x: hidden;
+  padding: 100px;
+  background:linear-gradient(135deg, #0079bf, #5067c5)
+}
+
+
+.collaboration{
+  display: flex;
+  justify-content: center;
+  width: 450px;
+  height: auto;
+}
+
+#h4{
+max-width: 100%;
+margin-bottom: .5rem;
+font-weight: 500;
+line-height: 1.2;
+color: inherit;
+}
+
+media(max-width: 950px){
+  video{
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 768px){
+#get-started {
+  overflow-x: hidden;
+    background-image: url(https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/97db7688a52a697ea9376a5f0fe5d98f/trellians-2x-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1332px 393px;
+    height: 393px;
+}
+}
