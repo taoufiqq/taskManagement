@@ -1,6 +1,6 @@
 # app-web-gestion-taches
 
-Firstable open xampp run server then go to phpmyadmin.
+Firstable open ampps run server then go to phpmyadmin.
 
 # Step 2: import sql data 
    > zentao.sql
